@@ -6,12 +6,14 @@ Twilio.AuthToken  = process.env.Twilio_AuthToken; // get these from you twilio a
 	GET /
 */
 exports.main = function(req, res){
+/*
 	res.send('<h2>Form to send a text message:</h2><form method="POST" action="/">' +
 					'To: <input type="text" name="To" value="16464309130" />   ** Note that for this example this is going to be your Twilo number<br>' +					
 					'From: <input type="text" name="From" value="17654307001" /><br>' +
 					'Body: <input type="text" name="Body" />' +					
 					'<input type="submit" />' +
 			 '</form>');	
+*/
 }
 
 /* 
