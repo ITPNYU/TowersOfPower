@@ -25,11 +25,11 @@ exports.main_post = function(req, res){
 	var from = req.body.From; // From whom the message originated
 	var to = req.body.To; // To whom the message is going to be delivered
 
-	console.log("Body: " + body);
-	console.log("From: " + from);
-	console.log("To: " + to);
+	console.log('Body: ' + body);
+	console.log('From: ' + from);
+	console.log('To: ' + to);
 
-	var message = "Unless you've got TOWERS OF POWER!!!"; // Outgoing message
+	var message = 'Unless you\'ve got TOWERS OF POWER!!!'; // Outgoing message
 
 	// Function to automate a reply
 	Twilio.SMS.create({to: from, from: to, body: message}, function(err,res) {
