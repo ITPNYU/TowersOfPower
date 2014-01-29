@@ -28,9 +28,10 @@ To use, follow the getting started below.  Very simple!
 
 	heroku addons:add mongolab:starter
 
-6) Get Heroku MongoLab connection string into .env file
+6) Get Heroku MongoLab connection string into .env file.  Use heroku config:set to set environmental variables.
 
 	heroku config --shell | grep MONGOLAB_URI >> .env
+	heroku config:set Twilio_AccountSid=XXXXXXXXXXXXXX Twilio_AuthToken=XXXXXXXXXXXXXX
 
 Your connection string to MongoDB will be in your **.env** file now.
 

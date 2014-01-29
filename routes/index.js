@@ -14,6 +14,7 @@ exports.main = function(req, res){
 					'<input type="submit" />' +
 			 '</form>');	
 */
+	res.render('main.html');
 }
 
 /* 
