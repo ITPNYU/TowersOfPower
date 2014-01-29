@@ -4,6 +4,7 @@
 html,
 body {
 	height: 100%;
+	background-color: #eeeeee;
   /* The html and body elements cannot have any padding or margin. */
 }
 
@@ -26,4 +27,13 @@ body {
 #footer p {
 	text-align: center;
 	padding-top: 20px;
+}
+.container{
+	text-align: center;
+}
+.sendMessage {
+	margin-top: 20px;
+}
+#messageSent {
+	margin-top: 20px;
 }

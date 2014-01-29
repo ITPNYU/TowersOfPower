@@ -1,4 +1,21 @@
 <div class="container">
 	<h2>Towers of Power</h2>
-	<p>Example using Node.js and Twilio.</p>
+	<p>1-904-33-POWER</p>
+	<img src="/img/tower-of-power.jpg">
+	<div class="sendMessage">
+		<form id="form" method="POST" action="/">
+			To: <input type="text" name="To" placeholder="1-(111)-111-1111"/>
+			Body: <input type="text" name="Body" placeholder="type message here"/>	
+			<input type="hidden" name="From" value="19043376937" >
+			<input type="submit" />
+		</form>
+	</div>
+	<div id="messageSent">
+		<p>Your message has been sent.</p>
+	</div>
 </div>
+<script>
+$(document).ready(function() {
+	$("#messageSent").hide();
+});
+</script>

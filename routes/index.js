@@ -37,6 +37,6 @@ exports.main_post = function(req, res){
 		console.log('******* Sent SMS Message *******');
 	});	 
 	
-	res.send("*** Finished ***");
+	res.redirect("/");
 
 }
