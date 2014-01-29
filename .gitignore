@@ -1,5 +1,3 @@
 .DS_Store
 .env
 node_modules
-Twilio_AccountSid=APe17e88fca5344224abc30745071d2938
-Twilio_AuthToken=3af91684fa2d040f587bf96955cffd82

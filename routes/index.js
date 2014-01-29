@@ -32,7 +32,7 @@ exports.main_post = function(req, res){
 	var message = 'Unless you\'ve got TOWERS OF POWER!!!'; // Outgoing message
 
 	// Function to automate a reply
-	Twilio.SMS.create({to: from, from: to, body: 'hello'}, function(err,res) {
+	Twilio.SMS.create({to: from, from: to, body: message}, function(err,res) {
 		console.log('******* Sent SMS Message *******');
 	});	 
 	
