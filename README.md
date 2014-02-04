@@ -10,6 +10,10 @@ This example simply allows a user to send an to our Twilio phone number 1-904-33
 
 Visit the exaample <a href="http://towers-of-power.herokuapp.com">towers-of-power.herokuapp.com</a>  
 
+### Arduino Examples
+
+These are a seris of sketches meant to be used with the GSM Arduino shield.  They use seial communication to send AT Commands directly to the GSM module.
+
 ### Twilio
 
 Twilio allows you to register a phone number and make HTTP GET and POST requests through that phone number.  This, for example, enables us to send an SMS to a website.  This demo uses Twilio's API to return an SMS once one is receieved.  The user will send a text message to our registerd phone number, we will genereate an automated return.
