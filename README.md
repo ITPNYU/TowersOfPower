@@ -1,5 +1,7 @@
 ## Towers of Power
 
+View the class <a href="https://itp.nyu.edu/classes/towers-spring2014/">website</a>
+
 In this 1 point course we will learn how the GSM network works and will explore cellphone technologies and how to get your projects communicating with a cell carrier. This workshop will take place over three sessions. The first session will be dedicated to learning about the current GSM (Global System for Mobile Communications) infrastructure and how the communication between cell phones and the network happens; we will be introducing open source alternatives, both hardware and software, for setting up and deploying your own GSM network as a way to better understand the different components of the system. The second session will focus on getting hands-on experience with off the shelf GSM modules, modems and mobile hardware and getting those devices to communicate with cellphone networks via text message (SMS) and via data transfer (GPRS). The last session will be an open workshop for further developing your mini-project and presenting the projects to the rest of the class.
 
 ### node-twilio-example
