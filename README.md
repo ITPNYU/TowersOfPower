@@ -1,6 +1,6 @@
-## Node.js - Express - EJS - Bootstrap Template
+## Node.js - Twilio - SMS - Express - EJS - Bootstrap Template
 
-This is a template application using Node.js, Express, EJS, Bootstrap and Nodemon.  Almost all of this comes from John Schimmel and the ITP Dynamic Web Development class.  I have simply added a few thing and made it my own so I can develop quickly.  
+This is a demo web application that connects to Twilio in order to send SMS messages to the web. There are many steps need to take in order to get this working.  The most challenging portion is getting the Node.js application running.  Please visit the <a href="http://itpwebclass.herokuapp.com/">ITP Dynamic Web Development</a> syllabus from John Schimmels class for details on setting up a Node.js server.  Most of this is built from the ITP DWD class though I have simply added a few thing and made it my own so I can develop quickly.  
 
 To use, follow the getting started below.  Very simple!
 
