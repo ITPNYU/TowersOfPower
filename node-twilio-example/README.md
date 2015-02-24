@@ -6,6 +6,7 @@ To use, follow the getting started below.  Very simple!
 
 
 ### Getting started w/ local development server
+0) Set up a heroku account and download the Mac OS X heroku toolbelt 
 
 1) Download this template repo and navigate into the code directory with Terminal.
 
